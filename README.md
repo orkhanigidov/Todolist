@@ -37,8 +37,8 @@ Method | Route | Description
 ## Setup Docker
 
 ```
-$ git ?
-$ cd ?
+$ git clone https://github.com/orkhanigidov/Todolist.git
+$ cd Todolist
 $ docker-compose up
 $ cp .env.example .env
 ```
