@@ -6,8 +6,9 @@
 - [Technologies](#technologies)
 - [API Endpoints](#api-endpoints)
 - [Setup Docker](#setup-docker)
-- [Run Migration](#run-migration)
+- [Configuration](#configuration)
 - [Install Dependencies](#install-dependencies)
+- [Run Migration](#run-migration)
 - [Run Application](#run-application)
 - [Testing](#testing)
 
@@ -41,6 +42,16 @@ $ git clone https://github.com/orkhanigidov/Todolist.git
 $ cd Todolist
 $ docker-compose up
 $ cp .env.example .env
+```
+
+## Configuration
+
+Fill out relevant items in your `.env` file, including:
+
+```
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
 ```
 
 ## Install Dependencies
